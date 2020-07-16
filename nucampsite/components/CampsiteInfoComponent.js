@@ -14,6 +14,7 @@ const mapStateToProps = state => {
         favorites: state.favorites
     };
 };
+//Checking git update
 
 const mapDispatchToProps = {
     postFavorite: campsiteId => (postFavorite(campsiteId)),
